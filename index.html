@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ---------GoogleFonts------- -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- --------FontAwesome-------- -->
+    <script src="https://kit.fontawesome.com/a23fcf8253.js" crossorigin="anonymous"></script>
+
+    <!-- --------Javascript------------ -->
+    <script src="index.js"></script>
+
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="navbar">
+
+                <div class="nav-DropDown">
+                    <label for="nav">
+                        <!-- <i class="fa-solid fa-xmark nav-front"></i> -->
+                        <i class="fa-solid fa-bars nav-back"></i>
+                    </label>
+                </div>
+                <div class="logo">
+                    <p>Divine<span>Salad</span></p>
+                </div>
+                <div class="navElement">
+                    <ul>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#customize">Customize</a></li>
+                        <li><a href="#About">AboutUs</a></li>
+                    </ul>
+                </div>
+                <div class="navIcons">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <i class="login-button"><button>Login</button></i>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+            </div>
+
+            <input class="radio" type="checkbox" id="nav">
+
+            <div class="navElement-responsive">
+                <ul>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#customize">Customize</a></li>
+                    <li><a href="#About">AboutUs</a></li>
+                </ul>
+            </div>
+        </div>
+
+
+        <div id="landing-page">
+            <div class="home-blur">
+                <div class="home-content">
+                    <div class="discription">
+                        <h2><span class="color">Lettuce</span> Eat Salad.</h2>
+                        <p>Elevate Your Plate with Our Vibrant Creations, Where Fresh Ingredients and Irresistible
+                            Flavors Come Together to Make Every Bite a Wholesome Delight!</p>
+                        <button>View Menu <i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                    <div class="HomeImage">
+                        <div class="home-img">
+                            <img src="Assets/random/home-img.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="menu">
+            <div class="menu-container">
+                <h2 class="menu-head">Our Menu</h2>
+                <input type="radio" class="radio" name="select" id="tap-1" checked>
+                <input type="radio" class="radio" name="select" id="tap-2">
+                <input type="radio" class="radio" name="select" id="tap-3">
+                <div class="best-sell">
+
+                    <!-- <div><h3>Option</h3></div> -->
+                    <div class="soup ">
+                        <div class="category-type">
+                            <img class="food-img"
+                                src="Assets/soup/This Classic Chicken and Vegetable Soup with a Bright Citrus Kick Recipe.jpg"
+                                alt="">
+                            <div class="product-desc">
+                                <h3>Chicken Soup</h3>
+                                <p><i class="fa-solid fa-fire-flame-curved"></i> 200 kcal</p>
+                                <div class="price">
+                                    <h3>$ 20</h3>
+                                    <button>Add</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="category-type">
+                            <img class="food-img"
+                                src="Assets/soup/This Classic Chicken and Vegetable Soup with a Bright Citrus Kick Recipe.jpg"
+                                alt="">
+                            <div class="product-desc">
+                                <h3>Chicken Soup</h3>
+                                <p><i class="fa-solid fa-fire-flame-curved"></i> 200 kcal</p>
+                                <div class="price flex justify-content_sb">
+                                    <h3>$ 20</h3>
+                                    <button>Add</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="category-type">
+                            <img class="food-img"
+                                src="Assets/soup/This Classic Chicken and Vegetable Soup with a Bright Citrus Kick Recipe.jpg"
+                                alt="">
+                            <div class="product-desc">
+                                <h3>Chicken Soup</h3>
+                                <p><i class="fa-solid fa-fire-flame-curved"></i> 200 kcal</p>
+                                <div class="price flex justify-content_sb">
+                                    <h3>$ 20</h3>
+                                    <button>Add</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="category-type">
+                            <img class="food-img"
+                                src="Assets/soup/This Classic Chicken and Vegetable Soup with a Bright Citrus Kick Recipe.jpg"
+                                alt="">
+                            <div class="product-desc">
+                                <h3>Chicken Soup</h3>
+                                <p><i class="fa-solid fa-fire-flame-curved"></i> 200 kcal</p>
+                                <div class="price flex justify-content_sb">
+                                    <h3>$ 20</h3>
+                                    <button>Add</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="wrap ">
+                        <div class="category-type">
+                            <img class="food-img"
+                                src="Assets/wrap/Easy Hummus Veggie Wrap (Vegan!) - Little Sunny Kitchen.jpg" alt="">
+                            <div class="product-desc">
+                                <h3>Chicken Salad</h3>
+                                <p><i class="fa-solid fa-fire-flame-curved"></i> 200 kcal</p>
+                                <div class="price flex justify-content_sb">
+                                    <h3>$ 20</h3>
+                                    <button>Add</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="category-type">
+                            <img class="food-img"
+                                src="Assets/wrap/Easy Hummus Veggie Wrap (Vegan!) - Little Sunny Kitchen.jpg" alt="">
+                            <div class="product-desc">
+                                <h3>Chicken Salad</h3>
+                                <p><i class="fa-solid fa-fire-flame-curved"></i> 200 kcal</p>
+                                <div class="price flex justify-content_sb">
+                                    <h3>$ 20</h3>
+                                    <button>Add</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="category-type">
+                            <img class="food-img"
+                                src="Assets/wrap/Easy Hummus Veggie Wrap (Vegan!) - Little Sunny Kitchen.jpg" alt="">
+                            <div class="product-desc">
+                                <h3>Chicken Salad</h3>
+                                <p><i class="fa-solid fa-fire-flame-curved"></i> 200 kcal</p>
+                                <div class="price flex justify-content_sb">
+                                    <h3>$ 20</h3>
+                                    <button>Add</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="category-type">
+                            <img class="food-img"
+                                src="Assets/wrap/Easy Hummus Veggie Wrap (Vegan!) - Little Sunny Kitchen.jpg" alt="">
+                            <div class="product-desc">
+                                <h3>Chicken Salad</h3>
+                                <p><i class="fa-solid fa-fire-flame-curved"></i> 200 kcal</p>
+                                <div class="price flex justify-content_sb">
+                                    <h3>$ 20</h3>
+                                    <button>Add</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="salad ">
+                        <div class="category-type">
+                            <img class="food-img" src="Assets/salad/download.jpg" alt="">
+                            <div class="product-desc">
+                                <h3>Chicken Salad</h3>
+                                <p><i class="fa-solid fa-fire-flame-curved"></i> 200 kcal</p>
+                                <div class="price flex justify-content_sb">
+                                    <h3>$ 20</h3>
+                                    <button>Add</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="category-type">
+                            <img class="food-img" src="Assets/salad/download.jpg" alt="">
+                            <div class="product-desc">
+                                <h3>Chicken Salad</h3>
+                                <p><i class="fa-solid fa-fire-flame-curved"></i> 200 kcal</p>
+                                <div class="price flex justify-content_sb">
+                                    <h3>$ 20</h3>
+                                    <button>Add</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="category-type">
+                            <img class="food-img" src="Assets/salad/download.jpg" alt="">
+                            <div class="product-desc">
+                                <h3>Chicken Salad</h3>
+                                <p><i class="fa-solid fa-fire-flame-curved"></i> 200 kcal</p>
+                                <!-- <h3>View all<i class="fa-solid fa-arrow-right"></i></h3> -->
+                                <div class="price flex justify-content_sb">
+                                    <h3>$ 20</h3>
+                                    <button>Add</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="category-type">
+                            <img class="food-img" src="Assets/salad/download.jpg" alt="">
+                            <div class="product-desc">
+                                <h3>Chicken Salad</h3>
+                                <p><i class="fa-solid fa-fire-flame-curved"></i> 200 kcal</p>
+                                <!-- <h3>View all<i class="fa-solid fa-arrow-right"></i></h3> -->
+                                <div class="price">
+                                    <h3>$ 20</h3>
+                                    <button>Add</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+                <div class="menu-category ">
+                    <label for="tap-1">
+                        <div class="category-bg salad-btn ">
+                            <img src="Assets/random/salad-category.png" alt="">
+                            <div class="category-desc ">
+                                <h3>Salads</h3>
+                                <p>Crisp, vibrant, and bursting with freshness, our salad is a garden on your plate.</p>
+                            </div>
+                        </div>
+                    </label>
+
+                    <label for="tap-2">
+                        <div class="category-bg soup-btn flex">
+                            <img src="Assets/random/soup-category.png" alt="">
+                            <div class="category-desc flex">
+                                <h3>Soup</h3>
+                                <p>Sip into comfort with our soul-warming soup, a bowlful of nourishment and flavor.</p>
+                            </div>
+                        </div>
+                    </label>
+
+                    <label for="tap-3">
+                        <div class="category-bg wrap-btn flex">
+                            <img src="Assets/random/wrap-category.jpeg" alt="">
+                            <div class="category-desc flex">
+                                <h3>Wrap</h3>
+                                <p>Wrap up your cravings in a flavorful embrace with our signature wrap.</p>
+                            </div>
+                        </div>
+                    </label>
+
+                </div>
+            </div>
+        </div>
+
+        <div id="customize">
+            <div class="customize-container">
+                <div class="customize-img">
+                    <div class="customize-bg">
+                        <h2>Customize <span>Your Food</span></h2>
+                        <div class="customize-options">
+                            <div class="customize-category">
+                                <label for="c1">Salad</label>
+                                <label for="c2">Soup</label>
+                                <label for="c3">Wrap</label>
+
+                            </div>
+                            <div class="customize-card">
+                                <input type="radio" class="radio" name="customize" id="c1" checked>
+                                <input type="radio" class="radio" name="customize" id="c2">
+                                <input type="radio" class="radio" name="customize" id="c3">
+
+                                <div class="base">
+                                    <div class="custom-item salad-custom">
+                                        <h3>Salad Base</h3>
+                                        <p><input type="checkbox"><label> Spinach </label></p>
+                                        <p><input type="checkbox"><label> Lettuce</label></p>
+                                        <p><input type="checkbox"><label> Corn</label></p>
+                                        <p><input type="checkbox"><label> Red Kidney Beans</label></p>
+                                        <p><input type="checkbox"><label> Carrots</label></p>
+                                    </div>
+                                    <div class="custom-item soup-custom">
+                                        <h3>Soup Base</h3>
+                                        <p> <input type="checkbox"><label for="">Chicken Broth </label> </p>
+                                        <p> <input type="checkbox"><label for="">Vegetable Broth</label> </p>
+                                        <p> <input type="checkbox"><label for="">Tomato Puree </label> </p>
+                                        <p> <input type="checkbox"><label for="">Brocoli Puree </label> </p>
+                                        <p> <input type="checkbox"><label for="">Lobster Bisque </label> </p>
+                                    </div>
+                                    <div class="custom-item wrap-custom">
+                                        <h3>Bread</h3>
+                                        <p> <input type="checkbox"><label for="">Pita </label> </p>
+                                        <p> <input type="checkbox"><label for="">Chappati </label> </p>
+                                        <p> <input type="checkbox"><label for="">Naan </label> </p>
+                                        <p> <input type="checkbox"><label for="">Rice Paper </label> </p>
+                                        <p> <input type="checkbox"><label for="">Creppe </label> </p>
+                                    </div>
+
+                                </div>
+                                <div class="ingredients">
+                                    <div class="custom-item salad-custom">
+                                        <h3>Salad-Base</h3>
+                                        <p> <input type="checkbox"><label for="">Spinach </label> </p>
+                                        <p> <input type="checkbox"><label for="">Lettuce </label> </p>
+                                        <p> <input type="checkbox"><label for="">Corn </label> </p>
+                                        <p> <input type="checkbox"><label for="">Red Kidney Beans</label> </p>
+                                        <p> <input type="checkbox"><label for="">Carrots </label> </p>
+                                    </div>
+                                    <div class="custom-item soup-custom">
+                                        <h3>Soup-Base</h3>
+                                        <p> <input type="checkbox"><label for="">Chicken Broth </label> </p>
+                                        <p> <input type="checkbox"><label for="">Vegetable Broth</label> </p>
+                                        <p> <input type="checkbox"><label for="">Tomato Puree </label> </p>
+                                        <p> <input type="checkbox"><label for="">Brocoli Puree </label> </p>
+                                        <p> <input type="checkbox"><label for="">Lobster Bisque </label> </p>
+                                    </div>
+                                    <div class="custom-item wrap-custom">
+                                        <h3>Bread</h3>
+                                        <p> <input type="checkbox"><label for="">Chicken Broth </label> </p>
+                                        <p> <input type="checkbox"><label for="">Vegetable Broth</label> </p>
+                                        <p> <input type="checkbox"><label for="">Tomato Puree </label> </p>
+                                        <p> <input type="checkbox"><label for="">Brocoli Puree </label> </p>
+                                        <p> <input type="checkbox"><label for="">Lobster Bisque </label> </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="customize-bottom">
+                    <div class="customize-desc">
+                        <h3>Begin with any of our base and then add up to 5 of our addition and finish it with dressing
+                            of
+                            your choice.</h3>
+                        <button>Ready<i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <hr class="hr">
+
+        <div id="About">
+            
+            <div class="about-container">
+                <!-- <input type="radio" class="" name="about" id="back"  checked> -->
+
+                
+                <div class="part1">
+                    <img src="Assets/random/Group 1.svg" alt="">
+                    <div class="content">
+                        <h2>About Us</h2>
+                        <h3>We are Delicious</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae, neque delectus.Tempore
+                            deserunt ipsa voluptas veniam adipisci cupiditate in voluptatem ea, quis possimus maxime
+                            nostrum natus quaerat et aut amet incidunt repudiandae. Unde inventore laudantium
+                            repellendus rem velit, dolor mollitia aspernatur libero, numquam illum nisi voluptates
+                            voluptas incidunt asperiores molestias.</p>
+                        <!-- <div class="about-buttons">
+                            <label for="back">
+                                <i class="fa-solid fa-less-than"></i>
+                            </label>
+                            <label for="fro">
+                                <i class="fa-solid fa-less-than fa-flip-horizontal"></i>
+                            </label>
+                        </div> -->
+                    </div>
+                </div>
+
+                <!-- <input type="radio" class="" name="about" id="fro"> -->
+
+                <div class="part2">
+                    <div class="content">
+                        <h2>Our Staff</h2>
+                        <h3>Chef</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae, neque delectus.Tempore
+                            deserunt ipsa voluptas veniam adipisci cupiditate in voluptatem ea, quis possimus maxime
+                            nostrum natus quaerat et aut amet incidunt repudiandae. Unde inventore laudantium
+                            repellendus rem velit, dolor mollitia aspernatur libero, numquam illum nisi voluptates
+                            voluptas incidunt asperiores molestias.</p>
+                        <!-- <div class="about-buttons">
+                            <label for="back"><i class="fa-solid fa-less-than"></i></label>
+                            <label for="fro"><i class="fa-solid fa-less-than fa-flip-horizontal"></i></label>
+                        </div> -->
+                    </div>
+                    <img src="Assets/random/Group 2.svg" alt="">
+                </div>
+
+                
+
+
+            </div>
+        </div>
+
+        <div id="footer">
+            <div class="newsletter">
+                <label for=""><button>SIGN UP TO OUR NEWSLETTER</button></label>
+            </div>
+            <div class="foot">
+                <div class="logo">
+                    <p>Divine<span>Salad</span></p>
+                    <!-- <i class="fa-regular fa-copyright"></i> Devine Salad -->
+                </div>
+                <div class="">
+                    <div class="foot-content">
+                        <ul>
+                            <p>Company</p>
+                            <li>Menu</li>
+                            <li>Customize</li>
+                            <li>About Us</li>
+                            <li>News</li>
+                        </ul>
+                        <hr>
+                        <ul>
+                            <p>Get in touch</p>
+                            <li><i class="fa-solid fa-location-dot"></i>Mumbai</li>
+                            <li><i class="fa-solid fa-envelope"></i>DevineSalad@gmail.com</li>
+                            <li><i class="fa-solid fa-phone"></i>+0909090</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="">
+                    <p>Eat. <span><i>Delicious</i></span></p>
+                    <div class="social">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>
